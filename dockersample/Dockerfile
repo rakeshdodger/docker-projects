@@ -1,7 +1,7 @@
 # comments
 
 FROM base-image  #To run your base image
-LABEL key=value
+LABEL key=value # It is used to label - For example AUTHOR = user@example.com
 RUN command # To run any commands inside your container
 COPY src dest # To copy a host files to the container image
 ADD src.tar dest # This ADD performs action like unzipping the file and put it to the destination.
